@@ -79,4 +79,4 @@ class AuthController{
   }
 }
 
-export default authController = new AuthController()
+export const authController = new AuthController()

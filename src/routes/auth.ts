@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { createValidation } from "../middlewares/user/createValidation";
-import authController from "../controllers/auth";
+import { authController } from "../controllers/auth";
 
 const router = Router();
 
